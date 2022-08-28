@@ -8,25 +8,15 @@
 package org.example;
 
 public class Calculator {
-    private int result;
     private int firstNum;
     private int secondNum;
 
     public Calculator() {
     }
 
-    public Calculator(int result, int firstNum, int secondNum) {
-        this.result = result;
+    public Calculator(int firstNum, int secondNum) {
         this.firstNum = firstNum;
         this.secondNum = secondNum;
-    }
-
-    public int getResult() {
-        return result;
-    }
-
-    public void setResult(int result) {
-        this.result = result;
     }
 
     public int getFirstNum() {
