@@ -12,4 +12,6 @@ public class Calculator {
     private int firstNum;
     private int secondNum;
 
+    public Calculator() {
+    }
 }
