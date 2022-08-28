@@ -2,6 +2,7 @@ package org.example;
 
 public class CalculatorImpl {
     public static void main(String[] args) {
+
         Calculator input = new Calculator();
         input.setFirstNum(25);
         input.setSecondNum(25);
