@@ -14,4 +14,10 @@ public class Calculator {
 
     public Calculator() {
     }
+
+    public Calculator(int result, int firstNum, int secondNum) {
+        this.result = result;
+        this.firstNum = firstNum;
+        this.secondNum = secondNum;
+    }
 }
