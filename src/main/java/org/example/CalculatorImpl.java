@@ -1,11 +1,18 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class CalculatorImpl {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int firstNum = sc.nextInt();
+        System.out.println("enter 1st number = " + firstNum);
+        int secondNum = sc.nextInt();
+        System.out.println("enter 2nd number = " + secondNum);
 
         Calculator input = new Calculator();
-        input.setFirstNum(25);
-        input.setSecondNum(25);
+        input.setFirstNum(firstNum);
+        input.setSecondNum(secondNum);
         int addResult = input.add(input.getFirstNum(), input.getSecondNum());
         System.out.println("addResult = " + addResult);
         int subResult = input.sub(input.getFirstNum(), input.getSecondNum());
