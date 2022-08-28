@@ -44,4 +44,24 @@ public class Calculator {
     public void setSecondNum(int secondNum) {
         this.secondNum = secondNum;
     }
+
+    public int add(int firstNum, int secondNum) {
+        return firstNum + secondNum;
+    }
+
+    public int sub(int firstNum, int secondNum) {
+        return firstNum - secondNum;
+    }
+
+    public int multiply(int firstNum, int secondNum) {
+        return firstNum * secondNum;
+    }
+
+    public int divide(int firstNum, int secondNum) {
+        return firstNum / secondNum;
+    }
+
+    public int module(int firstNum, int secondNum) {
+        return firstNum % secondNum;
+    }
 }
