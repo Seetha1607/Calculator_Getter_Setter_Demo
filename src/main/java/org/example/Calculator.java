@@ -8,5 +8,8 @@
 package org.example;
 
 public class Calculator {
+    private int result;
+    private int firstNum;
+    private int secondNum;
 
 }
